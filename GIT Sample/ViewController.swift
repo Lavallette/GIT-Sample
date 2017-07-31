@@ -8,8 +8,15 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
 
+
+class ViewController: NSViewController {
+    func buttonClicked(_ sender: NSButtonCell) {
+        print("This is a Git tutorial")
+    }
+    
+    @IBOutlet weak var buttonClicked: NSButtonCell!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
